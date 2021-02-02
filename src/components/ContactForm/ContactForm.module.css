@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.name,
+.number {
+  margin-right: 10px;
+}
+
+.nameInput {
+  margin-left: 25px;
+}
+
+.numberInput {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: whitesmoke;
+  color: red;
+  width: 150px;
+}

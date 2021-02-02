@@ -1,0 +1,56 @@
+:root {
+  --primaryTextColor: #212121;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  color: var(--primaryTextColor);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url('./bg.jpg');
+  background-size: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+p,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  width: 220px;
+  height: 25px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: var(--primaryTextColor);
+  border-radius: 5px;
+  outline-style: none;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  border: none;
+}

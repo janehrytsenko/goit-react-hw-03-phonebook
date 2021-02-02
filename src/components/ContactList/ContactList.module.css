@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  outline-style: none;
+  font-weight: 700;
+}
